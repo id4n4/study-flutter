@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/config/menu/app_routes.dart';
 
 class MenuItem {
   final String title;
@@ -16,21 +17,15 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
-    title: 'Home',
-    subTitle: 'Go to Home',
-    link: '/',
-    icon: Icons.home,
+    title: 'Botones',
+    subTitle: 'Varios botones en flutter',
+    link: AppRoutes.buttons,
+    icon: Icons.smart_button_outlined,
   ),
   MenuItem(
-    title: 'About',
-    subTitle: 'Go to About',
-    link: '/about',
-    icon: Icons.info,
-  ),
-  MenuItem(
-    title: 'Contact',
-    subTitle: 'Go to Contact',
-    link: '/contact',
-    icon: Icons.contact_mail,
+    title: 'Tarjetas',
+    subTitle: 'Un contenedor estilizado',
+    link: AppRoutes.cards,
+    icon: Icons.credit_card,
   ),
 ];
