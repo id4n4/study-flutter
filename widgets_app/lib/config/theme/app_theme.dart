@@ -17,8 +17,7 @@ class AppTheme {
             'Selected color index is out of range 0 - ${colorList.length - 1}');
 
   ThemeData getTheme() => ThemeData(
-        colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: colorList[selectedColor],
-        ),
+        colorSchemeSeed: colorList[selectedColor],
+        // appBarTheme: const AppBarTheme(centerTitle: true)
       );
 }
