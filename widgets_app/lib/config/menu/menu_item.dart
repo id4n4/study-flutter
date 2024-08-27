@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_app/config/menu/app_routes.dart';
+import 'package:widgets_app/config/router/app_routes.dart';
 
 class MenuItem {
   final String title;
